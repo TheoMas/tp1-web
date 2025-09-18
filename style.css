@@ -1,0 +1,76 @@
+html{
+    height: 100%;
+    width: 100%;
+    overflow-x: none;
+    background-color: #191919;
+}
+
+body{
+    margin: 0;
+    overflow-x: none;
+    height: inherit;
+    width: inherit;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    align-self: center;
+    flex-direction: column;
+}
+
+.form{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    padding: 5%;
+    padding-top:3%;
+    padding-bottom: 3%;
+    background-color: #383838;
+    border-radius: 20px;
+    filter: drop-shadow(-10px 10px 4px #242424);
+}
+
+.input{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.submit{
+    background-color :#191919;
+    color: white;
+    border: 3px #191919 solid;
+    border-radius: 5px;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    filter: drop-shadow(-5px 5px 4px #242424);
+    cursor: pointer;
+}
+
+.label{
+    color: whitesmoke;
+}
+
+.recapDiv{
+    color: whitesmoke;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    padding: 5%;
+    padding-top:3%;
+    padding-bottom: 3%;
+    background-color: #383838;
+    border-radius: 20px;
+    filter: drop-shadow(-10px 10px 4px #242424);
+}
